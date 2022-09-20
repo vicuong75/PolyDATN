@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.duan1.bee_market">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/vct"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo2"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BEE_MARKET">
+        <activity android:name=".ChiTietTinNhan"></activity>
+        <activity android:name=".ChiTietToCao" />
+        <activity android:name=".ToCao" />
+        <activity android:name=".TimKiem" />
+        <activity android:name=".XemChiTiet" />
+        <activity android:name=".GianHang" />
+        <activity android:name=".TroGiup" />
+        <activity android:name=".VeChungToi" />
+        <activity android:name=".TinCuaToi" />
+        <activity android:name=".SuaTaiKhoan" />
+        <activity android:name=".Dangki" />
+        <activity android:name=".Dangnhap" />
+        <activity android:name=".Splash" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+
+        <activity android:name=".MainActivity"/>
+
+    </application>
+
+</manifest>

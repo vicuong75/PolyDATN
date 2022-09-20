@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/nav_trangchu"
+        android:title="Trang Chủ"
+        android:iconTint="@color/red"
+        app:showAsAction="collapseActionView|ifRoom"
+        android:icon="@drawable/home">
+    </item>
+
+    <item
+        android:id="@+id/nav_tinluu"
+        android:title="Tin Lưu"
+        android:iconTint="@color/red"
+        app:showAsAction="collapseActionView|ifRoom"
+        android:icon="@drawable/gio">
+    </item>
+
+    <item
+        android:id="@+id/nav_dangtin"
+        android:title="Đăng Tin"
+        android:iconTint="@color/red"
+        app:showAsAction="collapseActionView|ifRoom"
+        android:icon="@drawable/add">
+    </item>
+    <item
+        android:id="@+id/nav_tinnhan"
+        android:title="Tin Nhắn"
+        android:iconTint="@color/red"
+        app:showAsAction="collapseActionView|ifRoom"
+        android:icon="@drawable/chat">
+    </item>
+
+    <item
+        android:id="@+id/nav_taikhoan"
+        android:title="Tài Khoản"
+        android:iconTint="@color/red"
+        app:showAsAction="collapseActionView|ifRoom"
+        android:icon="@drawable/user">
+    </item>
+
+</menu>

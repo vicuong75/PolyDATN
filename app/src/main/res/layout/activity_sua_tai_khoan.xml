@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SuaTaiKhoan">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F8F8F8"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbarProfile"
+            android:layout_width="match_parent"
+            android:layout_height="194dp"
+            android:background="#E67E21"
+
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:background="#E67E21"
+
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="384dp"
+                    android:layout_height="117dp"
+                    android:src="@drawable/ico"
+                    />
+
+                <TextView
+                    android:id="@+id/tvTen"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Tên Tài Khoản"
+                    android:textColor="@color/white"
+                    android:textSize="25dp" />
+
+                <TextView
+                    android:id="@+id/tvGmail"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Tên Gmail"
+                    android:textColor="@color/white"
+                    android:textSize="18dp" />
+
+            </LinearLayout>
+        </androidx.appcompat.widget.Toolbar>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#EEEEEE" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+
+            <EditText
+                android:id="@+id/edtName"
+                android:layout_width="297dp"
+                android:layout_height="42dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/goctron"
+                android:drawableStart="@drawable/user"
+
+                android:drawableLeft="@drawable/lock"
+                android:drawablePadding="5dp"
+                android:ems="10"
+
+                android:hint="Họ Tên"
+                android:inputType="textPersonName" />
+
+
+            <EditText
+                android:id="@+id/edtDiachi"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/goctron"
+                android:drawableStart="@drawable/chat"
+                android:drawableLeft="@drawable/chat"
+                android:drawablePadding="5dp"
+                android:ems="10"
+                android:hint="Địa Chỉ"
+
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/edtPhone"
+                android:layout_width="297dp"
+                android:layout_height="42dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/goctron"
+                android:drawableStart="@drawable/phone"
+
+                android:drawableLeft="@drawable/phone"
+                android:drawablePadding="5dp"
+                android:ems="10"
+
+                android:hint="Số Điện Thoại"
+                android:inputType="textPersonName" />
+
+
+            <LinearLayout
+                android:layout_width="380dp"
+                android:layout_height="105dp"
+                android:layout_gravity="center"
+
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="175dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp"
+                    android:background="@drawable/butt"
+
+                    android:text="Lưu TK "
+                    android:textColor="#FFFFFF"
+                    android:textSize="17dp" />
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="175dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp"
+                    android:background="@drawable/butt"
+
+                    android:text="Huy"
+                    android:textColor="#FFFFFF"
+                    android:textSize="17dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
